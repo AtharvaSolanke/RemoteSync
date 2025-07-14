@@ -1,0 +1,37 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Log files
+*.log
+
+# Coverage and test files
+coverage/
+*.test.ts
+
+# Editor folders
+.vscode/
+
+# Docker (optional)
+*.local
+docker-compose.override.yml
+
+# Husky generated hooks (optional)
+.husky/_/

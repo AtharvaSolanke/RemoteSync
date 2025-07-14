@@ -1,0 +1,9 @@
+#!/bin/sh
+# Husky pre-commit hook for lint
+echo "Running lint before commit..."
+npm run lint
+RESULT=$?
+if [ $RESULT -ne 0 ]; then
+  echo "❌ Lint failed. Commit aborted."
+  exit 1
+fi
